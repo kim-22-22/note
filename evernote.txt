@@ -1,0 +1,26 @@
+Élément	Langage / Outil
+Frontend	React, HTML, CSS, JS
+Backend	Node.js + Express
+Base de données	MySQL ou MongoDB
+Authentification	JWT, bcrypt
+Éditeur riche	React Quill / Slate.js
+Hébergement	Vercel, Render, Railway, etc.
+
+
+Les installations
+
+dans le dossier evernote il faut créer un dossier nommé 'backend'
+mkdir backend
+cd backend
+npm init -y
+
+puis installer les packages
+npm install express mysql2 cors dotenv bcrypt jsonwebtoken
+npm install --save-dev nodemon
+
+
+
+
+
+test connexion entre le frontend et le backend
+authentification
